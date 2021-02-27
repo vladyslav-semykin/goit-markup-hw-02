@@ -1,3 +1,11 @@
+/*============== COMPONENTS ==============*/
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --acent-color: #2196f3;
+}
+
 .link {
   text-decoration: none;
 }
@@ -6,79 +14,173 @@
   list-style: none;
 }
 
-.adress {
+.address {
   font-style: normal;
 }
 
+body {
+  font-family: var(--main-font);
+}
+
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-family: var(--secondary-font);
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--acent-color);
 }
 
 .logo-surname {
   color: black;
 }
 
+/*.logo-surname-footer {
+  color: white;
+}*/
+
 .nav-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* color: #2196f3; */
+  color: #212121;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 
 .contacts-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* color: #2196F3; */
+  color: #757575;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/
+}
+
+/*============== END COMPONENTS ==============*/
+
+/*============== HERO PAGE 1 ==============*/
+
 .modal-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   /*color: #FFFFFF;*/
 }
 
-/*.modal-btn:hover,
-.modal-btn:focus {
-}*/
-
 .advertising-name {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   /*color: #FFFFFF;*/
 }
+
+/*============== END HERO PAGE 1 ==============*/
+
+/*============== ABOUT ==============*/
+
+.about-main-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.about-us {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*============== END ABOUT ==============*/
+
+/*============== TEAM ==============*/
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-skills {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*============== END TEAM ==============*/
+
+/*============== HERO PAGE 2 ==============*/
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.btn:hover,
+.btn:focus {
+  color: white;
+  background-color: #2196f3;
+}
+
+/*============== END HERO PAGE 2 ==============*/
+
+/*============== SERVICES ==============*/
+
+.services-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.about-services {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*============== END SERVICES ==============*/
