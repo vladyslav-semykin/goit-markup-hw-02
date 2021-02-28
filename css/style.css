@@ -101,7 +101,7 @@ body {
 }
 
 .our-job-image {
-  background: var(--back-color);
+  background: var(--main-color);
 }
 
 .team {
@@ -149,7 +149,7 @@ body {
 /*============== ABOUT ==============*/
 
 .about {
-  background: var(--back-color);
+  background: var(--main-color);
 }
 
 .about-main-name {
@@ -196,7 +196,7 @@ body {
 /*============== HERO PAGE 2 ==============*/
 
 .hero-pg2 {
-  background: var(--back-color);
+  background: var(--main-color);
 }
 
 .btn {
@@ -213,10 +213,6 @@ body {
 .btn:focus {
   color: var(--main-color);
   background-color: var(--acent-color);
-}
-
-.hero-list {
-  background: var(--back-color);
 }
 
 /*============== END HERO PAGE 2 ==============*/
