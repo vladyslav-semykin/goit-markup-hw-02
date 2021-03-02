@@ -9,10 +9,10 @@
   --footer-backgroun-color: #2f303a;
   --usually-text-color: #757575;
   --headline-color: #212121;
-  --back-color: #e5e5e5;
   --secondary-back-color: #2f303a;
   --third-back-color: #f5f4fa;
   --main-black-color: #000000;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
 }
 
 .link {
@@ -106,6 +106,19 @@ body {
 
 .team {
   background: var(--third-back-color);
+}
+
+.contacts-link-footer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--footer-links-color);
+}
+
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
+  color: var(--acent-color);
 }
 
 /*============== END COMPONENTS ==============*/
@@ -207,6 +220,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--headline-color);
   cursor: pointer;
+  background: #f5f4fa;
 }
 
 .btn:hover,
